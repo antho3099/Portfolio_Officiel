@@ -1,0 +1,28 @@
+.presentation {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.presentation img {
+    width: 80px;
+    display: block;
+    margin: auto;
+}
+
+.presentation h2 {
+    font-family: "Archivo Narrow", serif;
+    text-align: center;
+    font-variant-caps: all-petite-caps;
+    font-weight: 800;
+    font-size: 40px;
+    color: #044193;
+}
+
+.presentation p {
+    font-family: "DM Sans", serif;
+    color: black;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}

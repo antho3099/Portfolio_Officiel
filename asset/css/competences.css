@@ -1,0 +1,31 @@
+#logiciels {
+    background: url(/asset/img/_anthony_nguyen_portfolio_wallpaper_geek.avif);
+    background-size: cover;
+    width: 100%;
+    padding-top: 15px;
+}
+
+#logiciels h2 {
+    font-family: "Archivo Narrow", serif;
+    text-align: center;
+    font-variant-caps: all-petite-caps;
+    font-weight: 800;
+    font-size: 40px;
+    color: #044193;
+}
+
+#logiciels ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#logiciels li {
+
+    list-style: none;
+}
+
+#logiciels img {
+    width: 130px;
+}

@@ -1,0 +1,32 @@
+nav {
+    background: url(/asset/img/anthony_nguyen_menuwallpaper.avif);
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    display: none;
+}
+
+.display {
+    display: block;
+}
+
+nav ul {
+    padding-top: 35px;
+}
+
+nav ul li {
+    list-style: none;
+    text-align: center;
+}
+
+nav a {
+    font-family: "Lilita One", serif;
+    font-weight: 400;
+    font-variant-caps: all-petite-caps;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+}
