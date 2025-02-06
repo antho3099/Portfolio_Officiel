@@ -1,0 +1,93 @@
+.bag {
+    background: url(/asset/img/wallpaper.avif);
+    width: 100%;
+    background-size: cover;
+}
+
+.bag img {
+    width: 190px;
+    display: block;
+    margin: auto;
+}
+
+.bag .description {
+    text-align: center;
+}
+
+.bag details {
+    margin-bottom: 20px;
+}
+
+.bag .description h4 {
+    text-align: center;
+    font-family: "Lilita One", serif;
+    font-family: "Lilita One", serif;
+    font-weight: 400;
+    font-variant-caps: all-petite-caps;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: gold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.bag .description summary {
+    font-family: "Archivo Narrow", serif;
+    font-size: 20px;
+    color: black;
+}
+
+.bag .description p {
+    font-family: "DM Sans", serif;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: whitesmoke;
+    font-weight: 700;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+}
+
+.bag .description a {
+    display: block;
+    margin: auto;
+    background-color: gold;
+    border: 1px solid black;
+    padding: 2px;
+    margin-left: 110px;
+    margin-right: 110px;
+    text-align: center;
+    font-family: "DM Sans", serif;
+    text-decoration: none;
+    color: black
+}
+
+@media screen and (min-width: 992px) {
+    .bag {
+        background: url(/asset/img/wallpaper.avif);
+        width: 100%;
+        background-size: cover;
+        display: flex;
+    }
+
+    .bag img {
+        width: 350px;
+    }
+
+    .bag .description {
+        text-align: center;
+        margin-right: 500px;
+        margin-top: 50px;
+    }
+
+    .bag details {
+        margin-bottom: 20px;
+    }
+
+    .bag .description summary {
+        font-family: "Archivo Narrow", serif;
+        font-size: 20px;
+        color: black;
+    }
+
+}

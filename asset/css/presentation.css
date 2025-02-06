@@ -26,3 +26,36 @@
     margin-left: 10px;
 
 }
+
+@media screen and (min-width: 992px) {
+    .presentation {
+        margin-top: 25px;
+        margin-bottom: 35px;
+    }
+
+    .presentation img {
+        width: 100px;
+        display: block;
+        margin: auto;
+    }
+
+    .presentation h2 {
+        font-family: "Archivo Narrow", serif;
+        text-align: center;
+        font-variant-caps: all-petite-caps;
+        font-weight: 800;
+        font-size: 60px;
+        color: #044193;
+    }
+
+    .presentation p {
+        font-family: "DM Sans", serif;
+        color: black;
+        text-align: center;
+        width: 850px;
+        font-size: 25px;
+        display: block;
+        margin: auto;
+
+    }
+}

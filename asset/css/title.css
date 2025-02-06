@@ -38,3 +38,50 @@
     font-size: 25px;
     margin-right: 12px;
 }
+
+@media screen and (min-width: 992px) {
+    .title {
+        background: url(/asset/img/_anthony_nguyen_portfolio_wallpaper_geek.avif);
+        background-size: cover;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .title img {
+        width: 310px;
+        position: relative;
+        left: 85px;
+    }
+
+    #profil {
+        width: 850px;
+        position: relative;
+        top: 55px;
+    }
+
+    .title h1 {
+        font-family: "Lilita One", serif;
+        font-weight: 400;
+        font-variant-caps: all-petite-caps;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        color: white;
+        margin-top: 65px;
+        text-align: center;
+        font-size: 95px;
+        margin-right: 12px;
+    }
+
+    .title h2 {
+        font-family: "Lilita One", serif;
+        font-weight: 400;
+        font-variant-caps: all-petite-caps;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        color: white;
+        text-align: center;
+        font-size: 55px;
+        margin-right: 12px;
+    }
+}

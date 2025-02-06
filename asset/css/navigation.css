@@ -30,3 +30,32 @@ nav a {
     font-size: 35px;
     text-decoration: none;
 }
+
+@media screen and (min-width: 992px) {
+    nav {
+        background: none;
+        display: block;
+        position: absolute;
+        top: 1px;
+        left: 500px;
+
+    }
+
+    nav ul {
+        display: flex;
+        gap: 25px;
+        list-style: none;
+    }
+
+    nav a {
+        font-family: "Lilita One", serif;
+        font-weight: 400;
+        font-variant-caps: all-petite-caps;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        color: white;
+        font-size: 35px;
+        text-decoration: none;
+    }
+
+}
