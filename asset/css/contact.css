@@ -8,6 +8,21 @@
 }
 
 .coordonnees {
-    margin-top: 90px;
+    display: block;
+    margin: auto;
+}
+
+.coordonnees h6 {
+    font-family: "Archivo Narrow", serif;
     text-align: center;
+    font-variant-caps: all-petite-caps;
+    font-weight: 800;
+    font-size: 30px;
+    color: #044193;
+}
+
+.coordonnees p {
+    font-family: "DM Sans", serif;
+    color: black;
+    font-size: 17px;
 }

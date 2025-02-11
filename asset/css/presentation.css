@@ -4,7 +4,7 @@
 }
 
 .presentation img {
-    width: 80px;
+    width: 70px;
     display: block;
     margin: auto;
 }
@@ -22,8 +22,9 @@
     font-family: "DM Sans", serif;
     color: black;
     text-align: justify;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 10px;
 
 }
 
