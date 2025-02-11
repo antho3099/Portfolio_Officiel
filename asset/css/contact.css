@@ -1,0 +1,13 @@
+.contactmail {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactmail img {
+    width: 160px;
+}
+
+.coordonnees {
+    margin-top: 90px;
+    text-align: center;
+}

@@ -5,6 +5,7 @@
 @import url(navigation.css);
 @import url(competences.css);
 @import url(sites.css);
+@import url(contact.css);
 
 * {
     margin: 0;
