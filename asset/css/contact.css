@@ -26,3 +26,40 @@
     color: black;
     font-size: 17px;
 }
+
+@media screen and (min-width: 992px) {
+    .contactmail {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contactmail img {
+        width: 260px;
+        display: block;
+        margin: auto;
+    }
+
+    .coordonnees {
+        display: block;
+        margin: auto;
+        position: relative;
+        right: 200px;
+    }
+
+    .coordonnees h6 {
+        font-family: "Archivo Narrow", serif;
+        text-align: center;
+        font-variant-caps: all-petite-caps;
+        font-weight: 800;
+        font-size: 55px;
+        color: #044193;
+    }
+
+    .coordonnees p {
+        font-family: "DM Sans", serif;
+        color: black;
+        font-size: 30px;
+    }
+
+
+}

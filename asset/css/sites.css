@@ -35,7 +35,6 @@
 .bag .description h4 {
     text-align: center;
     font-family: "Lilita One", serif;
-    font-family: "Lilita One", serif;
     font-weight: 400;
     font-variant-caps: all-petite-caps;
     -webkit-text-stroke-width: 1px;
@@ -78,26 +77,70 @@
         width: 100%;
         background-size: cover;
         display: flex;
+        justify-content: space-between;
     }
 
     .bag img {
         width: 350px;
+        margin-left: 95px;
+        margin-top: 5px;
+
     }
 
     .bag .description {
         text-align: center;
-        margin-right: 500px;
         margin-top: 50px;
+        margin-left: 150px;
+        margin-right: 150px;
     }
 
     .bag details {
         margin-bottom: 20px;
     }
 
-    .bag .description summary {
-        font-family: "Archivo Narrow", serif;
-        font-size: 20px;
+    .bag .description h4 {
+        font-family: "Lilita One", serif;
+        font-size: 50px;
+        color: gold;
+    }
+
+    .bag .description h5 {
+        text-align: center;
+        font-family: "Lilita One", serif;
+        font-weight: 400;
+        font-variant-caps: all-petite-caps;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .bag .description p {
+        font-family: "DM Sans", serif;
+        text-align: justify;
+        margin-left: 25px;
+        margin-right: 25px;
+        color: whitesmoke;
+        font-weight: 900;
+        -webkit-text-stroke-width: 0.3px;
+        -webkit-text-stroke-color: black;
+        font-size: 25px;
+    }
+
+    .bag .description a {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        background-color: gold;
+        border: 1px solid black;
+        padding: 2px;
+        text-align: center;
+        font-family: "DM Sans", serif;
+        text-decoration: none;
         color: black;
+        width: 165px;
+        font-size: 20px;
     }
 
 }

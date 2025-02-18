@@ -1,7 +1,13 @@
 header {
     background-color: rgb(0, 64, 201);
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 65px;
+    height: 65px;
+    margin: 10px;
 }
 
 #menu {
@@ -14,10 +20,15 @@ header {
     header {
         background-color: rgb(0, 64, 201);
         display: flex;
-        justify-content: space-around;
+    }
+
+    #logo {
+        width: 85px;
+        height: 85px;
+        margin: 15px;
     }
 
     #menu {
-        justify-content: end;
+        display: none;
     }
 }
