@@ -1,8 +1,8 @@
 .bag {
     background: rgb(8, 99, 255);
     background: linear-gradient(110deg, rgba(8, 99, 255, 1) 27%, rgba(3, 20, 255, 1) 93%);
-    width: 100%;
     background-size: cover;
+    width: 100%;
     padding-bottom: 20px;
 }
 
@@ -76,8 +76,8 @@
     .bag {
         background: rgb(8, 99, 255);
         background: linear-gradient(110deg, rgba(8, 99, 255, 1) 27%, rgba(3, 20, 255, 1) 93%);
-        width: 100%;
         background-size: cover;
+        width: 100%;
         display: flex;
         justify-content: space-between;
     }
