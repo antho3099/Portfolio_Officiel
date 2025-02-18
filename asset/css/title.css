@@ -1,5 +1,6 @@
 .title {
-    background: url(.../../../../asset/img/_anthony_nguyen_portfolio_wallpaper_geek.avif) no-repeat;
+    background: rgb(0, 38, 190);
+    background: linear-gradient(180deg, rgba(0, 38, 190, 1) 15%, rgba(0, 163, 255, 1) 100%) no-repeat;
     background-size: cover;
     width: 100%;
     display: flex;
@@ -41,7 +42,8 @@
 
 @media screen and (min-width: 992px) {
     .title {
-        background: url(.../../../../asset/img/_anthony_nguyen_portfolio_wallpaper_geek.avif);
+        background: rgb(0, 38, 190);
+        background: linear-gradient(180deg, rgba(0, 38, 190, 1) 15%, rgba(0, 163, 255, 1) 100%) no-repeat;
         background-size: cover;
         width: 100%;
         display: flex;
